@@ -22,10 +22,10 @@ After deployment, you'll be able to download from:
 👉 [Download Latest Version (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/latest/download/FileRenamer.exe)
 
 ### How to Use
-1. Click "Klasör Seç" to select the target folder
-2. Enter the text you want to replace in "Eski İsmi Girin"
-3. Enter the new text in "Yeni İsmi Girin"
-4. Click "Değiştir" to start the renaming process
+1. Click "Select Folder" to select the target folder
+2. Enter the text you want to replace in "Enter Old Name"
+3. Enter the new text in "Enter New Name"
+4. Click "Rename" to start the renaming process
 5. Review the changes in automatically opened Notepad windows
 
 ### System Requirements
@@ -54,10 +54,10 @@ Deployment sonrası buradan indirebilirsiniz:
 👉 [Son Sürümü İndir (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/latest/download/FileRenamer.exe)
 
 ### Nasıl Kullanılır
-1. Hedef klasörü seçmek için "Klasör Seç" butonuna tıklayın
-2. "Eski İsmi Girin" alanına değiştirmek istediğiniz metni girin
-3. "Yeni İsmi Girin" alanına yeni metni girin
-4. Yeniden adlandırma işlemini başlatmak için "Değiştir" butonuna tıklayın
+1. Hedef klasörü seçmek için "Select Folder" butonuna tıklayın
+2. "Enter Old Name" alanına değiştirmek istediğiniz metni girin
+3. "Enter New Name" alanına yeni metni girin
+4. Yeniden adlandırma işlemini başlatmak için "Rename" butonuna tıklayın
 5. Değişiklikleri otomatik açılan Notepad pencerelerinde inceleyin
 
 ### Sistem Gereksinimleri

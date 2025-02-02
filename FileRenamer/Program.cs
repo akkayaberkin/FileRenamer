@@ -23,7 +23,7 @@ namespace FileRenamer
 
             Button btnSelectFolder = new Button
             {
-                Text = "Klasör Seç",
+                Text = "Select Folder",
                 Left = 20,
                 Top = 20,
                 Width = 100
@@ -38,7 +38,7 @@ namespace FileRenamer
 
             Button btnRename = new Button
             {
-                Text = "Değiştir",
+                Text = "Rename",
                 Left = 20,
                 Top = 120,
                 Width = 100
@@ -49,7 +49,7 @@ namespace FileRenamer
                 Left = 130,
                 Top = 60,
                 Width = 300,
-                PlaceholderText = "Eski İsmi Girin"
+                PlaceholderText = "Enter Old Name"
             };
 
             TextBox txtNewName = new TextBox
@@ -57,7 +57,7 @@ namespace FileRenamer
                 Left = 130,
                 Top = 90,
                 Width = 300,
-                PlaceholderText = "Yeni İsmi Girin"
+                PlaceholderText = "Enter New Name"
             };
 
             btnSelectFolder.Click += (sender, e) =>
@@ -81,7 +81,7 @@ namespace FileRenamer
                     string.IsNullOrWhiteSpace(oldName) ||
                     string.IsNullOrWhiteSpace(newName))
                 {
-                    MessageBox.Show("Lütfen tüm alanları doldurun!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please fill in all fields!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -91,11 +91,11 @@ namespace FileRenamer
                     RenameFilesAndContent(folderPath, oldName, newName);
                     OpenFilesInNotepad(folderPath);
 
-                    MessageBox.Show("Dosya, klasör adları ve içerikleri başarıyla değiştirildi!", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Files, folders and contents renamed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
 
