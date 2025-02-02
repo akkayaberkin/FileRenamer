@@ -16,10 +16,11 @@ File Renamer is a simple yet powerful Windows application that helps you rename 
 - User-friendly interface
 
 ### Download
-> ⚠️ The application will be available for download soon. Please check back later!
+👉 [Download Latest Version (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/download/v1.0.1/FileRenamer.exe)
 
-After deployment, you'll be able to download from:
-👉 [Download Latest Version (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/latest/download/FileRenamer.exe)
+You can also:
+- View all releases on [GitHub Releases Page](https://github.com/akkayaberkin/FileRenamer/releases)
+- Clone the repository: `git clone https://github.com/akkayaberkin/FileRenamer.git`
 
 ### How to Use
 1. Click "Select Folder" to select the target folder
@@ -48,10 +49,11 @@ File Renamer, birden fazla dosya, klasör ve içeriklerini aynı anda yeniden ad
 - Kullanıcı dostu arayüz
 
 ### İndir
-> ⚠️ Uygulama yakında indirilebilir olacaktır. Lütfen daha sonra tekrar kontrol edin!
+👉 [Son Sürümü İndir (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/download/v1.0.1/FileRenamer.exe)
 
-Deployment sonrası buradan indirebilirsiniz:
-👉 [Son Sürümü İndir (FileRenamer.exe)](https://github.com/akkayaberkin/FileRenamer/releases/latest/download/FileRenamer.exe)
+Ayrıca:
+- Tüm sürümleri [GitHub Releases sayfasında](https://github.com/akkayaberkin/FileRenamer/releases) görüntüleyebilirsiniz
+- Repository'yi klonlayabilirsiniz: `git clone https://github.com/akkayaberkin/FileRenamer.git`
 
 ### Nasıl Kullanılır
 1. Hedef klasörü seçmek için "Select Folder" butonuna tıklayın
